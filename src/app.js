@@ -17,5 +17,5 @@ app.use(rentalsRoutes);
 app.use(express.json());
 app.use(cors());
 
-const port = process.env.PORT;
+const port = 5000;
 app.listen(port, () => console.log(`Servidor rodando na porta ${port}`))
